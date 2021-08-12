@@ -19,6 +19,24 @@
                 <a href="#services">Services</a>
                 <a href="#products">Products</a>
                 <a href="#contact">Contact</a>
+
+                <button id="modal-btn1">Login/Signup</button>
+                <!-- <div class="modal1">
+                <div class="login-content">
+               <span class="hid-btn">&times;</span>
+                <form>  
+                  <h2>Create an Account</h2> 
+                  <input type="text" name="" placeholder="Username"> 
+                  <input type="email" name="" placeholder="Email Address">
+                  <input type="password" name="" placeholder="Password">
+                  <input type="password" name="" placeholder="Confirm Password">
+                  <input type="submit" name="" value="Sign up">
+                  <p class="signup">Already have an account? <a href="#" onclick="toggleForm()">Sign in</p>
+                  </form>
+               </div> 
+               </div> -->
+               <!-- AIzaSyAngTEMWthxWWnTETeASN3tKQtUxBlaPSA -->
+          
             </nav>   
     </header>
     <div class="home-section">
@@ -34,15 +52,12 @@
 
           <ul>
             <li><a href="#contact" id="home-icon1" class="fa fa-clock-o"><p id="info">Opening times<br>Monday-Friday:9:00-22:00</p></a></li>
-            <li><a href="#contact" id="home-icon" class="fa fa-home"><p id="info"> Our Location<br> Tom Mboya Steet</p></a></li>
+            <li><a href="#contact" id="home-icon" class="fa fa-home"><p id="info"> Our Location<br> Tom Mboya Street</p></a></li>
             <li><a href="#contact" id="home-icon" class="fa fa-calendar-o"><p id="info">Book Now<br>+25401676567</p></a></li>
             <div id="marker"></div>
          </ul>
-
-
         </div>
     </div>
-
     </div>
  
 <div class="about-section">
@@ -51,7 +66,6 @@
            <section class="skewbox">
               <div class="content">
             <h1>About</h1>
-            <h2></h2>
             <p>Faith's Beauty Parlour is a family owned business located in the outskirts of Nairobi CBD.We are committed to giving perfection to our clients.<br>
                Our committed group of beauticians,skin specialists and nails specialists are dedicated and have confidence <br>
                in excellence with a heart.</p>
@@ -76,7 +90,7 @@
         <h1>Services</h1>
             <div class = "services-cards">  
             <div class="card">
-               <img src="salonimages/hairdesign.jpg" alt="haircut"> 
+               <img src="salonimages/hairdo.jpg" alt="haircut"> 
               <div class="container">
                 <h3><b>Hair Cut</b></h3> 
                  <!-- <p>link</p>  -->
@@ -169,8 +183,7 @@
                   <!-- <p>link</p>  -->
                </div>
              </div>
-
-             
+            
 </div>
 </div>
 </div>
@@ -323,27 +336,88 @@
                             <!-- <p>link</p>  -->
               </div>
         </div>
-        
-                     
+                  
         </div>
         </div>
         </div>
-        
+                    
+   <div class="appointment-section">      
+   <div class="appointment-details">
 
-
+    <div class="appointment">
+      <button id="modal-btn">MAKE APPOINTMENT NOW</button>
+      <div class="modal">
+         <div class="modal-content">
+            <span class="close-btn">&times;</span>
+             <form> 
+                   <h4>Book an appointment</h4> 
+              <label for="fullname">Fullname:</label>
+              <input type="text", placeholder="Enter fullname"><br>
+              <label for="mobilenumber">Mobilenumber:</label>
+              <input type="tel", placeholder="Enter mobilenumber"><br>
+              <label for="email">Email:</label><br>
+              <input type="email", placeholder="Enter email"><br>
+              <label for="appointmentdate">Appointment Date:</label><br>
+              <input type="date", placeholder="Enter date"><br>
+              <label for="time">Time:</label><br>
+              <input type="time", placeholder="Enter time"><br>
+              <label for="service">Service type:</label><br>
+              <input type="text", placeholder="Enter service type"><br>
+             <input id="submit" type="submit", value="Submit">
+            </form>  
+       </div>   
             
+   </div> 
+   </div> 
+     <div id="phone-icon" class="fa fa-phone"><p id="details">Contact as now and get special offers!</p></div> 
+   </div> 
+   </div>
 
-<div class="contact-section">
-    <div id = "contact">
-        <div class="contact-content">
-</div>
-</div>
-</div>
+   <footer>
+      <div class="contact-section">
+          <div id = "contact">
+      <h1>Get in Touch</h1>
+      <div class="contact2-icons">    
+         <p><a id="contact2-icons" href="#" class="fa fa-facebook"></a></p>
+         <p><a id="contact2-icons" href="#" class="fa fa-google"></a></p>
+         <p><a id="contact2-icons" href="#" class="fa fa-instagram"></a></p>
+      </div>   
 
+       <img  src="https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
+&markers=color:red%7Clabel:C%7C40.718217,-73.998284
+&key=AIzaSyAngTEMWthxWWnTETeASN3tKQtUxBlaPSA"/>
+
+       <div class="days">
+         
+         <table>
+            <!-- <h6>We're Open</h6> -->
+            <tr>
+               <td>Monday-Friday</td>
+               <td>9am to 10pm</td>
+            </tr>
+            <tr>
+               <td>Saturday</td>
+               <td>9am to 12pm</td>
+            </tr>
+            <tr>
+               <td>Sunday & Holidays</td>
+               <td>8am to 12pm</td>
+            </tr>
+         </table>
+         </div>
+
+         <div class="contact-icons">
+            <a id="contact-icons" href="#" class="fa fa-map-marker">Tom Mboya Street</a>
+            <a id="contact-icons" href="#" class="fa fa-phone">+25401676567</a> 
+            <a id="contact-icons" href="#" class="fa fa-envelope">Email</a>
+          </div>
+   </div> 
+</div>
+</footer>
  <script src="main.js"></script>  
  <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
 
 </body>
 </html>

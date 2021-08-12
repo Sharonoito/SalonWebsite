@@ -5,15 +5,39 @@ nav{
    text-align: right;
    padding: 2%;
    margin: 0;
-   background-color: #49c5b6;
-   
+   background-color: #49c5b6;  
 }
+#modal-btn1{
+   font-size: 18px;
+   color: gray; 
+   background-color: #f5f5f5;
+   border-radius: 10px;
+   padding: 5px;
+}
+#modal-btn1:hover{
+   background-color: gray;
+   color: whitesmoke;
+}
+.login-content {
+   position: relative; 
+   background-color: white;
+   margin: 0;
+   -webkit-animation-name: animatetop;
+   -webkit-animation-duration: 0.4s;
+   animation-name: animatetop;
+   animation-duration: 0.4s ;  
+   padding: 5%; 
+   max-width: 300px;
+   margin-left: 36%;
+     
+ }
+
 a{
    text-decoration: none;
    color:whitesmoke;
    padding: 2%;
    text-align:right;  
-   font-size: 18px; 
+   font-size: 20px; 
    transition: color 0.3s ease; 
 }
 a:hover{
@@ -44,12 +68,7 @@ a:hover{
    font-size: 40px;
    margin-left: 7%;
 
-   /* clear: both; 
-   display: inline-block;
-   overflow: hidden;
-   white-space: nowrap; */
-
-}
+  }
 .texto{
    margin-top: 30%;
     margin-left: 15%; 
@@ -74,14 +93,12 @@ ul{
    position: relative;
    display: flex;
    justify-content: center;
-    /* align-items: center;  */
     text-align: left;
    
    
 }
 ul li{
    list-style: none;
-   /* text-align: center; */
   
 }
 ul li a{
@@ -121,26 +138,6 @@ ul li a{
       color: whitesmoke;
       
    } 
-
-
-   /* border-top: 1px solid; */
-
- /* ul li a::before{
-   content: '';
-   position:absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 50%;
-   background: rgba(255,255,255,0.1);
-}
-ul li :first-child a{
-    border-top-left-radius: 30px; 
-    border-bottom-left-radius: 30px; 
-
-}
-ul li:nth-child(2)a  */
-
 
 #marker{
    position: absolute;
@@ -186,10 +183,6 @@ marker::before{
    0 0 60px #49c5b6
 
 }
-/* ul:hover{
-   background-color:#49c5b6 ;
-} */
-
 
 
 
@@ -199,6 +192,7 @@ marker::before{
    padding: 0;
    color:gray;
    margin-bottom: 40%;
+   height: 1200;
 
 }
 section{
@@ -224,6 +218,8 @@ section{
    text-align: justify;
 
 }
+
+
 /* styling service section */
 .services-section{
     height: 1800px;
@@ -267,12 +263,13 @@ section{
      text-align: center;
   }
 
+
+
   /* styling products section */
 .products-section{
-   height: 1800px;
-   margin-bottom: 10%;
-   margin-top: 10%; 
-    /* background-color:gray ;  */
+   height: 1000px;
+   /* margin-bottom: 10%; */
+   /* margin-top: 10%;  */
   
 }
 .products-cards{
@@ -288,7 +285,6 @@ section{
    text-align: center;
    
 }
-
 .card {
    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
    transition: 0.3s;
@@ -306,3 +302,166 @@ section{
    text-align: center;
     
  }
+
+
+ /* Styling appointment section */
+ .appointment{
+    background-color:#49c5b6 ;
+    height: 150px;
+   margin-top: 5%;
+
+ }
+ #phone-icon{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-left: 8%;
+ }
+
+ #details{
+    margin-left: 10%;
+    text-align: left;
+    /* margin-top: -7%; */
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 25px;
+    flex: content;
+    /* margin-bottom: 30%; */
+
+   clear: both; 
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap; 
+      
+ }
+ #phone-icon, #details{
+    margin-top: -5%;
+ }
+ #modal-btn{
+    background-color:whitesmoke ;
+    padding: 1em 3em;
+    color: black;
+    border: 0;
+    text-align: center;
+    margin-left: 80%;
+    font-weight: 500;
+    margin-top: 4%;
+   
+ }
+ #modal-btn:hover{
+    background: gray;
+ }
+ .modal {
+   display: none;
+   position: fixed; 
+   padding-top: 50px;
+   left: 0; 
+   top: 0;
+   width: 100%;
+   height: 100%; 
+   background-color: rgba(0, 0, 0, 0.5); 
+   
+ }
+ .modal-content {
+   position: relative; 
+   background-color: white;
+   margin: 0;
+   -webkit-animation-name: animatetop;
+   -webkit-animation-duration: 0.4s;
+   animation-name: animatetop;
+   animation-duration: 0.4s ;  
+   padding: 5%; 
+   max-width: 300px;
+   margin-left: 36%;
+     
+ } 
+    h4{     
+      color: black;
+      text-align: center;
+      font-size: 30px;
+      margin-top: -20%;
+   } 
+   input{
+      color: ddd;
+   }
+   #submit{
+      color:black; 
+      background-color: #49c5b6;;
+      margin-top: 5%;
+      border-radius: 10%;
+      padding: 3% 5%;
+   
+   }
+   label{
+      color: #49c5b6;
+   }
+ input{
+   border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    padding: 5%;
+    
+  }
+    label {
+    display: inline-block;
+    color: #49c5b6;;
+    padding: 2%;
+    font-weight: 600;
+    font-size: 18px;
+   }
+ .close-btn {
+   color: #49c5b6;;
+   float: right;
+   font-size: 38px;
+   font-weight: bold;
+   margin-top: -2% ;
+ }
+ .close-btn:hover {
+   color: darkgray;
+   text-decoration: none;
+    cursor: pointer;
+ }
+ @-webkit-keyframes animatetop {
+   from {top:-300px; opacity:0} 
+   to {top:0; opacity:1}
+ }
+ @keyframes animatetop {
+   from {top:-300px; opacity:0}
+   to {top:0; opacity:1}
+ }
+
+
+  /* contact sectionstyling  */
+  .contact-section{
+   background-color: gray; 
+   height: 100vh;
+   margin-top: -3.2%;
+}
+#map{
+   margin-left: 30%;
+   width: 55%;
+  
+}
+#contact-icons{
+   color:black;
+ 
+}
+#contact2-icons{
+   padding: 0.5%; 
+   margin: 1%;
+}
+ table{ 
+   position:absolute;
+   text-align: center; 
+   height: 350px;
+   width: 300px; 
+   background-color:#49c5b6;
+   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+   top: 845%;
+   right: 65%;
+ }
+
+
+
+  
+  
+  
