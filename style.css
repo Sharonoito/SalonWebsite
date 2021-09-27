@@ -71,14 +71,13 @@ a:hover{
   }
 .texto{
    margin-top: 30%;
-    margin-left: 15%; 
+   margin-left: 15%; 
 }
 #home{
    margin:auto 0 auto 40px ;
   
 }
 .navigate{
-  
    /* background-color: #262626; */
    background-color: gray;
 }
@@ -86,8 +85,8 @@ a:hover{
     background-color: gray;  
 }
 #homeimg{
-    margin-left: 120%; 
-     margin-top: -40%;    
+   margin-left: 100%; 
+   margin-top: -40%;    
 }
 ul{
    position: relative;
@@ -183,8 +182,6 @@ marker::before{
    0 0 60px #49c5b6
 
 }
-
-
 
 /* Styling about section */
 .about-section{
@@ -433,7 +430,7 @@ section{
   /* contact sectionstyling  */
   .contact-section{
    background-color: gray; 
-   height: 100vh;
+   height: 60vh;
    margin-top: -3.2%;
 }
 #map{
@@ -456,8 +453,15 @@ section{
    width: 300px; 
    background-color:#49c5b6;
    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-   top: 845%;
-   right: 65%;
+   top: 860%;
+   right: 5%;
+ }
+ .map{
+    margin-bottom: 10%;
+    padding: -5%;
+ }
+ .statement{
+    text-align: center;
  }
 
 
